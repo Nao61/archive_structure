@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', serif;
+}
+
+.n-navbar {
+    background-color: rgba(0, 0, 0, 0.55);
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+    z-index: 99;
+}
+
+.n-navbar .nav-link,
+.n-footer .nav-link {
+    border-bottom: 2px solid transparent;
+    transition: padding-bottom .4s ease-in-out, border-color .3s ease;
+}
+
+.n-navbar .nav-link:hover,
+.n-footer .nav-link:hover {
+    padding-bottom: 20px;
+    border-bottom-color: var(--bs-teal);
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: #2a2d93;
+    font-weight: bolder;
+}
+
+.banner,
+.order-form {
+    background: url('assets/img/archives_structure.jpg') center center fixed no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.aide {
+    background: url(https://solutions.srci.fr/wp-content/uploads/2017/04/Blog_couvertures_1_ban.jpg) center center fixed no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.text-desc {
+    color: #2a2d93;
+    font-size: 1.7rem;
+    font-weight: bolder;
+}
+
+.listes {
+    list-style-type: circle;
+    font-size: 1.5rem;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-container img {
+    width: 100%;
+    height: 200px;
+    transition: transform 0.3s ease;
+}
+
+.image-container:hover {
+    transform: scale(1.03);
+    /* Augmentez la taille de l'image au survol */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+}
+
+.btn-field {
+    color: #2a2d93;
+    border-color: #2a2d93;
+    transition: 0.5s;
+}
+
+.btn-field:hover {
+    color: #fff;
+    background-color: #2a2d93;
+}
+
+.grid-bg {
+    background-color: #2a2d93;
+}
+
+.n-contact {
+    background: url('https://cdn.pixabay.com/photo/2015/02/02/11/09/office-620822_1280.jpg') center center fixed no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+
+.form-border {
+    border: 2px solid #13b24f;
+    border-radius: 4px;
+}
+
+.btn-form {
+    background-color: #2a2d93;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.btn-form:hover {
+    border-color: #13b24f;
+    color: #13b24f;
+}
+
+.politique {
+    background: url('https://solutions.srci.fr/wp-content/uploads/2017/04/Blog_couvertures_1_ban.jpg') center center fixed no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.store_archive {
+    background: url('https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS1-g7V2lgCTaE282QpMbTSWRKUzQbbZxbeTCmRhTsX1fVNi6Z7') center center fixed no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.accreditation {
+    background: url('https://solutions.srci.fr/wp-content/uploads/2017/04/Blog_couvertures_1_ban.jpg') center center fixed no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.color-hr {
+    border: 2px solid rgb(16, 0, 0);
+}
+
+.logo {
+    text-align: center;
+}
+
+.copy {
+    color: #13b24f;
+}
