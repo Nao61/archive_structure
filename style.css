@@ -55,9 +55,26 @@
     font-size: 1.5rem;
 }
 
+.card{
+    border: none;
+}
+
 .card a {
     text-decoration: none;
     color: black;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title{
+    font-size: 0.8rem;
+}
+
+.card-text {
+    color: gray;
+    font-size: 0.7rem;
 }
 
 
