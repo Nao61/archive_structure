@@ -6,7 +6,7 @@
 
 .n-navbar {
     background-color: rgba(0, 0, 0, 0.55);
-    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+    box-shadow: 1px 1px 4px rgba(13, 13, 13, 0.54);
     z-index: 99;
 }
 
@@ -46,13 +46,12 @@
 
 .text-desc {
     color: #2a2d93;
-    font-size: 1.7rem;
     font-weight: bolder;
 }
 
 .listes {
     list-style-type: circle;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .card{
@@ -79,16 +78,10 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.card-title{
-  
-}
-
 .card-text {
     color: gray;
     font-size: 1rem;
 }
-
-
 
 .image-container img {
     width: 100%;
